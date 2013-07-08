@@ -1,0 +1,58 @@
+
+<html>
+    
+    <head>
+        <meta charset="utf-8" />
+        <title>Ice Cream Scoops</title>
+        <meta name="description" content="Ice Cream Order Form">
+        <meta "author" content="Amanda McCadams" />
+        <link rel="stylesheet" href="css/ice_cream_main.css">
+        <link href='http://fonts.googleapis.com/css?family=Antic+Slab|Lora|Sofia|Mr+Dafoe|Droid+Serif|Montserrat|Satisfy|Amatic+SC|Rochester|Raleway' rel='stylesheet' type='text/css'>
+    </head>
+    
+    <body>
+        <div class="flip">
+            <div class="card">
+                <div class="face front pattern-one">
+                    <img src="media/scoop_header.gif" alt="Ice Cream Scoops">
+                    <form id="icecreamform" action="#">
+                        <img id="pickFlavor" src="media/pick_flavor.gif" alt="Ice Cream Scoops">
+                        <div id="topping">
+                            <input type="checkbox" value="Chocolate Ice Cream" name="toppingcheck">
+                            <p class="sofia small iceCreamBlue">Chocolate</p>
+                            <input type="checkbox" value="Vanilla Ice Cream" name="toppingcheck">
+                            <p class="sofia small iceCreamBlue">Vanilla</p>
+                            <input type="checkbox" value="Strawberry Ice Cream" name="toppingcheck">
+                            <p class="sofia small iceCreamBlue">Strawberry</p>
+                        </div>
+                        <img id="chooseCone" src="media/choose_cone.gif" alt="Ice Cream Scoops">
+                        <div id="coneChoices">
+                            <input type="radio" name="cone" value="A Cake" checked="checked" id="radio1">
+                            <p class="sofia small iceCreamBlue">Cake Cone</p>
+
+                            <input type="radio" name="cone" value="A Sugar" id="radio2" />
+                            <p class="sofia small iceCreamBlue">Sugar Cone</p>
+                            <input type="radio" name="cone" value="A Waffle" id="radio3">
+                            <p class="sofia small iceCreamBlue">Waffle Cone</p>
+                        </div>
+                    </form>
+                    <button class="button amatic small" id="prepBtn" name="prepBtn" value="Order Scoops!">ORDER SCOOPS</button>
+                </div>
+                <!-- end front -->
+                <div class="face back pattern-one">
+                    <img id="orderAnnounce" src="media/thisOrderWillHave.png" alt="This Order will Have">
+                    <ul id="order"></ul>
+                    <div id="backCone">
+                        <img src="media/cone.gif" alt="Ice Cream Cone">
+                    </div>
+                    <button id="backButton" class="button amatic small">CLICK</button>
+                </div>
+                <!-- end back -->
+            </div>
+            <!-- end card -->
+        </div>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="javascript.js"></script>
+    </body>
+
+</html>

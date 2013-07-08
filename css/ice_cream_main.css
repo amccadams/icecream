@@ -1,0 +1,161 @@
+html {
+	background: url("../media/wide-stripe-pattern.jpg");
+	background-repeat: repeat;
+}
+
+/*.styleguide {
+	padding: 50px;
+	background: #f5f5f5;
+}*/
+
+.patterns {
+	width: 150px;
+	height: 150px;
+	padding: 25px;
+	margin:0 10px 10px 0;
+	display: inline-block;
+}
+
+
+#pickFlavor {
+	margin-top: 0px;
+}
+
+#chooseCone {
+	margin-top: -25px;
+}
+
+li {
+	list-style: none;
+	font-family: 'Sofia', cursive;
+}
+
+#topping #coneChoices{
+	  width: 350px;
+	  height: 100px;
+}
+/*#coneChoices{
+margin-right: 25px;
+}*/
+
+ input li {
+	margin-top: 100px;
+}
+
+.pattern-one {
+	background-color: #FFF8ED;
+	background-repeat: repeat ;
+}
+#orderAnnounce {
+    margin-left: -10px;
+}
+
+#order {
+	margin-right: 40px;
+}
+
+.sofia {
+	font-family: 'Sofia', cursive;
+}
+
+.amatic {
+	font-family: 'Amatic SC', cursive;
+}
+
+.large {
+	font-size: 4em;
+}
+
+.medium {
+	font-size: 3em;
+}
+
+.small {
+	font-size: 1.55em;
+}
+
+
+.iceCreamBlue {
+	color:#89C6DF;
+}
+
+
+.text-color {
+	color:#33292F;
+}
+
+input { 
+	vertical-align: middle; margin-top: -1px;}
+
+button {
+	padding: 10px;
+}
+#backButton  {
+	padding: 10px;
+	margin-top: -15px;
+	margin: auto,0;
+}
+
+#backCone {
+     margin-top: 30px;
+     padding-bottom: 30px;
+
+}
+
+h3{
+	color: #89C6DF;
+	font-family: 'Droid Serif', serif;
+}
+
+/* CARD FLIP! */
+
+.flip {
+	-webkit-perspective: 800;
+	-moz-perspective: 800;
+	width: 500px;
+	height: 700px;
+	position: relative;
+	margin: 50px auto;
+}
+
+.flip .card.flipped {
+ 	-webkit-transform: rotatey(-180deg);
+ 	-moz-transform: rotatey(-180deg);
+}
+
+.flip .card {
+	width: 500px;
+	height: 700px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: 0.5s;
+	-moz-transform-style: preserve-3d;
+	-moz-transition: 0.5s;
+	box-shadow: 0px 0px 15px #888888;
+}
+
+.flip .card .face {
+	width: 450px;
+	height: 650px;
+	padding: 25px;
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	z-index: 2;
+	font-family: Georgia;
+	text-align: center;
+}
+
+.flip .card .front {
+	position: absolute;
+	z-index: 1;
+	cursor: pointer;
+}
+.sofia {
+	display: inline-block;
+}
+
+.flip .card .back {
+	-webkit-transform: rotatey(-180deg);
+	-moz-transform: rotatey(-180deg);
+	cursor: pointer;
+}
